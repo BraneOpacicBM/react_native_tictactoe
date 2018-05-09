@@ -6,7 +6,10 @@ const placeList = (props) => {
 
     const placesOutput = props.places.map((place, i) => {
         return (
-          <ListItem key={i} placeName={place}/>
+          <ListItem 
+          key={i} 
+          placeName={place} 
+          onItemPressed={() => props.onItemDeleted(i)}/>
         )
       })
 
