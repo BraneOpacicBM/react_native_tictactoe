@@ -1,13 +1,18 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml:1:1-26:12
-INJECTED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml:1:1-26:12
-INJECTED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml:1:1-26:12
-INJECTED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml:1:1-26:12
-MERGED from [:react-native-vector-icons] C:\Users\Brane Opacic\Desktop\react-native-app\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [com.facebook.react:react-native:0.55.3] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\react-native-0.55.3.aar\25f9b59465e0a6845dd760283dee318e\AndroidManifest.xml:2:1-15:12
-MERGED from [com.android.support:appcompat-v7:23.0.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.0.1.aar\6f5ce9087c53bad4f0deed3a5cf6c778\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-v4-23.0.1.aar\456226992d7bd3154ec3c56cdba13b44\AndroidManifest.xml:17:1-24:12
+ADDED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-navigation] C:\Users\Brane Opacic\Desktop\react_native_app\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-20:12
+MERGED from [:react-native-vector-icons] C:\Users\Brane Opacic\Desktop\react_native_app\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.55.3] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\react-native-0.55.3.aar\045a6e95c322c9d874180450754f9da3\AndroidManifest.xml:2:1-15:12
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\44439a09eb07c278e2af970f7d220e3b\AndroidManifest.xml:2:1-14:12
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\e1ae92e7763d7fb9609148d6283bd449\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:design:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\ba8a28fcf05f42979ef5038e6c68502d\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\d79ed2a8832f3fd6be897c47c8b1cc3b\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\08d92652d4e57a28876a7e1c0ab07848\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\95fbf183f2ca86c6ac346a441a8d057a\AndroidManifest.xml:17:1-31:12
 MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\6e91d52bfa5dfb1a2a5bb242bad3bc1e\AndroidManifest.xml:10:1-18:12
 MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\fresco-1.3.0.aar\9d635cb567081da9386b40d9fd089ccb\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.3.0.aar\64c40bf533fdd09d0780911c2ace812b\AndroidManifest.xml:2:1-9:12
@@ -17,91 +22,140 @@ MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\Brane Opacic\.gradle\cac
 MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.3.0.aar\308f5dcf4ae0e15b10a5d511d9af2d5b\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\c0d8776cf81abbebf569d26bd4d7cc5e\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\ee35110e549d57cc42c0b560ecf12c8f\AndroidManifest.xml:2:1-9:12
-INJECTED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml:1:1-26:12
-INJECTED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml:1:1-26:12
-INJECTED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml:1:1-26:12
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\eed33aa948bc6fb20ac0bfc9b0fe78d4\AndroidManifest.xml:17:1-26:12
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\material-menu-1.5.4.aar\767475bc8d379c94e105f6f16cf3dab4\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\9f2b6a93530ee7879c08232443164cd4\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\949a9fae55f0ea77a3b10bc3000004bf\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\091a1327982fddc75f80acbc4db04a1d\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\91c559588a576227ad48d110fcd59ff3\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\09f95be89820958d9abc807b3437f018\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\bdba89f165131f92b7643c6c8c380028\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\c6838ebe40b34123331cda9d6ddd81df\AndroidManifest.xml:17:1-31:12
+INJECTED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml:1:1-26:12
 	package
-		ADDED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml:2:5-33
-		INJECTED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml:2:5-33
+		INJECTED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml:1:1-26:12
-		INJECTED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml:1:1-26:12
+		INJECTED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml:1:1-26:12
-		INJECTED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml:1:1-26:12
+		INJECTED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml:4:5-67
+ADDED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml:4:5-67
 	android:name
-		ADDED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml:4:22-64
+		ADDED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml:4:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml:5:5-77
-MERGED from [com.facebook.react:react-native:0.55.3] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\react-native-0.55.3.aar\25f9b59465e0a6845dd760283dee318e\AndroidManifest.xml:11:5-78
-MERGED from [com.facebook.react:react-native:0.55.3] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\react-native-0.55.3.aar\25f9b59465e0a6845dd760283dee318e\AndroidManifest.xml:11:5-78
+ADDED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.55.3] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\react-native-0.55.3.aar\045a6e95c322c9d874180450754f9da3\AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.55.3] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\react-native-0.55.3.aar\045a6e95c322c9d874180450754f9da3\AndroidManifest.xml:11:5-78
 	android:name
-		ADDED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml:5:22-75
+		ADDED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml:5:22-75
 application
-ADDED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml:7:5-24:19
-MERGED from [com.facebook.react:react-native:0.55.3] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\react-native-0.55.3.aar\25f9b59465e0a6845dd760283dee318e\AndroidManifest.xml:13:5-20
-MERGED from [com.facebook.react:react-native:0.55.3] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\react-native-0.55.3.aar\25f9b59465e0a6845dd760283dee318e\AndroidManifest.xml:13:5-20
-MERGED from [com.android.support:appcompat-v7:23.0.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.0.1.aar\6f5ce9087c53bad4f0deed3a5cf6c778\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.0.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.0.1.aar\6f5ce9087c53bad4f0deed3a5cf6c778\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-v4-23.0.1.aar\456226992d7bd3154ec3c56cdba13b44\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-v4-23.0.1.aar\456226992d7bd3154ec3c56cdba13b44\AndroidManifest.xml:22:5-20
+ADDED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml:7:5-24:19
+MERGED from [:react-native-navigation] C:\Users\Brane Opacic\Desktop\react_native_app\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-18:19
+MERGED from [:react-native-navigation] C:\Users\Brane Opacic\Desktop\react_native_app\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-18:19
+MERGED from [com.facebook.react:react-native:0.55.3] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\react-native-0.55.3.aar\045a6e95c322c9d874180450754f9da3\AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.55.3] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\react-native-0.55.3.aar\045a6e95c322c9d874180450754f9da3\AndroidManifest.xml:13:5-20
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\44439a09eb07c278e2af970f7d220e3b\AndroidManifest.xml:12:5-20
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\44439a09eb07c278e2af970f7d220e3b\AndroidManifest.xml:12:5-20
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\e1ae92e7763d7fb9609148d6283bd449\AndroidManifest.xml:11:5-20
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\e1ae92e7763d7fb9609148d6283bd449\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\ba8a28fcf05f42979ef5038e6c68502d\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\ba8a28fcf05f42979ef5038e6c68502d\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\d79ed2a8832f3fd6be897c47c8b1cc3b\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\d79ed2a8832f3fd6be897c47c8b1cc3b\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\08d92652d4e57a28876a7e1c0ab07848\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\08d92652d4e57a28876a7e1c0ab07848\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\95fbf183f2ca86c6ac346a441a8d057a\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\95fbf183f2ca86c6ac346a441a8d057a\AndroidManifest.xml:29:5-20
 MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\29d1f63c748389f41ba38d12a7a6e736\AndroidManifest.xml:3:3-17
 MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\29d1f63c748389f41ba38d12a7a6e736\AndroidManifest.xml:3:3-17
 MERGED from [org.webkit:android-jsc:r174650] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\d594847ec2bf578cba3304032d9d211a\AndroidManifest.xml:2:3-17
 MERGED from [org.webkit:android-jsc:r174650] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\d594847ec2bf578cba3304032d9d211a\AndroidManifest.xml:2:3-17
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\material-menu-1.5.4.aar\767475bc8d379c94e105f6f16cf3dab4\AndroidManifest.xml:12:5-20
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\material-menu-1.5.4.aar\767475bc8d379c94e105f6f16cf3dab4\AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\9f2b6a93530ee7879c08232443164cd4\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\9f2b6a93530ee7879c08232443164cd4\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\949a9fae55f0ea77a3b10bc3000004bf\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\949a9fae55f0ea77a3b10bc3000004bf\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\091a1327982fddc75f80acbc4db04a1d\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\091a1327982fddc75f80acbc4db04a1d\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\91c559588a576227ad48d110fcd59ff3\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\91c559588a576227ad48d110fcd59ff3\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\09f95be89820958d9abc807b3437f018\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\09f95be89820958d9abc807b3437f018\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\bdba89f165131f92b7643c6c8c380028\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\bdba89f165131f92b7643c6c8c380028\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\c6838ebe40b34123331cda9d6ddd81df\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\c6838ebe40b34123331cda9d6ddd81df\AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml:9:7-39
+		ADDED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml:9:7-39
 	android:icon
-		ADDED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml:10:7-41
+		ADDED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml:10:7-41
 	android:allowBackup
-		ADDED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml:11:7-34
+		ADDED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml:11:7-34
 	android:theme
-		ADDED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml:12:7-38
+		ADDED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml:12:7-38
 	android:name
-		ADDED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml:8:7-38
+		ADDED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml:8:7-38
 activity#com.reactnativeapp.MainActivity
-ADDED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml:13:7-22:18
+ADDED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml:13:7-22:18
 	android:label
-		ADDED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml:15:9-41
+		ADDED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml:15:9-41
 	android:windowSoftInputMode
-		ADDED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml:17:9-51
+		ADDED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml:17:9-51
 	android:configChanges
-		ADDED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml:16:9-79
+		ADDED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml:16:9-79
 	android:name
-		ADDED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml:14:9-37
+		ADDED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml:14:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml:18:9-21:25
+ADDED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml:18:9-21:25
 action#android.intent.action.MAIN
-ADDED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml:19:13-65
+ADDED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml:19:13-65
 	android:name
-		ADDED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml:19:21-62
+		ADDED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml:19:21-62
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml:20:13-73
+ADDED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml:20:13-73
 	android:name
-		ADDED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml:20:23-70
+		ADDED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml:20:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml:23:7-84
+ADDED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml:23:7-84
+MERGED from [:react-native-navigation] C:\Users\Brane Opacic\Desktop\react_native_app\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:9-17:40
+MERGED from [:react-native-navigation] C:\Users\Brane Opacic\Desktop\react_native_app\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:9-17:40
+	android:exported
+		ADDED from [:react-native-navigation] C:\Users\Brane Opacic\Desktop\react_native_app\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml:23:17-81
+		ADDED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml:23:17-81
 uses-sdk
-INJECTED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml
-MERGED from [:react-native-vector-icons] C:\Users\Brane Opacic\Desktop\react-native-app\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-vector-icons] C:\Users\Brane Opacic\Desktop\react-native-app\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.55.3] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\react-native-0.55.3.aar\25f9b59465e0a6845dd760283dee318e\AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.55.3] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\react-native-0.55.3.aar\25f9b59465e0a6845dd760283dee318e\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:23.0.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.0.1.aar\6f5ce9087c53bad4f0deed3a5cf6c778\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.0.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.0.1.aar\6f5ce9087c53bad4f0deed3a5cf6c778\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-v4-23.0.1.aar\456226992d7bd3154ec3c56cdba13b44\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-v4-23.0.1.aar\456226992d7bd3154ec3c56cdba13b44\AndroidManifest.xml:20:5-43
+INJECTED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml
+MERGED from [:react-native-navigation] C:\Users\Brane Opacic\Desktop\react_native_app\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-navigation] C:\Users\Brane Opacic\Desktop\react_native_app\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] C:\Users\Brane Opacic\Desktop\react_native_app\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] C:\Users\Brane Opacic\Desktop\react_native_app\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.55.3] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\react-native-0.55.3.aar\045a6e95c322c9d874180450754f9da3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.55.3] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\react-native-0.55.3.aar\045a6e95c322c9d874180450754f9da3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\44439a09eb07c278e2af970f7d220e3b\AndroidManifest.xml:8:5-10:41
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\44439a09eb07c278e2af970f7d220e3b\AndroidManifest.xml:8:5-10:41
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\e1ae92e7763d7fb9609148d6283bd449\AndroidManifest.xml:7:5-9:41
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\e1ae92e7763d7fb9609148d6283bd449\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\ba8a28fcf05f42979ef5038e6c68502d\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\ba8a28fcf05f42979ef5038e6c68502d\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\d79ed2a8832f3fd6be897c47c8b1cc3b\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\d79ed2a8832f3fd6be897c47c8b1cc3b\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\08d92652d4e57a28876a7e1c0ab07848\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\08d92652d4e57a28876a7e1c0ab07848\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\95fbf183f2ca86c6ac346a441a8d057a\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\95fbf183f2ca86c6ac346a441a8d057a\AndroidManifest.xml:21:5-23:54
 MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\6e91d52bfa5dfb1a2a5bb242bad3bc1e\AndroidManifest.xml:14:5-16:41
 MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\6e91d52bfa5dfb1a2a5bb242bad3bc1e\AndroidManifest.xml:14:5-16:41
 MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\fresco-1.3.0.aar\9d635cb567081da9386b40d9fd089ccb\AndroidManifest.xml:5:5-7:41
@@ -118,19 +172,73 @@ MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\Brane Opacic
 MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\c0d8776cf81abbebf569d26bd4d7cc5e\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\ee35110e549d57cc42c0b560ecf12c8f\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\ee35110e549d57cc42c0b560ecf12c8f\AndroidManifest.xml:5:5-7:41
-INJECTED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\eed33aa948bc6fb20ac0bfc9b0fe78d4\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\eed33aa948bc6fb20ac0bfc9b0fe78d4\AndroidManifest.xml:20:5-43
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\material-menu-1.5.4.aar\767475bc8d379c94e105f6f16cf3dab4\AndroidManifest.xml:8:5-10:41
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\material-menu-1.5.4.aar\767475bc8d379c94e105f6f16cf3dab4\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\9f2b6a93530ee7879c08232443164cd4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\9f2b6a93530ee7879c08232443164cd4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\949a9fae55f0ea77a3b10bc3000004bf\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\949a9fae55f0ea77a3b10bc3000004bf\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\091a1327982fddc75f80acbc4db04a1d\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\091a1327982fddc75f80acbc4db04a1d\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\91c559588a576227ad48d110fcd59ff3\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\91c559588a576227ad48d110fcd59ff3\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\09f95be89820958d9abc807b3437f018\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\09f95be89820958d9abc807b3437f018\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\bdba89f165131f92b7643c6c8c380028\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\bdba89f165131f92b7643c6c8c380028\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\c6838ebe40b34123331cda9d6ddd81df\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\c6838ebe40b34123331cda9d6ddd81df\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\ba8a28fcf05f42979ef5038e6c68502d\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml
+activity#com.reactnativenavigation.controllers.NavigationActivity
+ADDED from [:react-native-navigation] C:\Users\Brane Opacic\Desktop\react_native_app\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:9-14:86
+	android:configChanges
+		ADDED from [:react-native-navigation] C:\Users\Brane Opacic\Desktop\react_native_app\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:13-83
+	android:name
+		ADDED from [:react-native-navigation] C:\Users\Brane Opacic\Desktop\react_native_app\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:13-84
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\ba8a28fcf05f42979ef5038e6c68502d\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\d79ed2a8832f3fd6be897c47c8b1cc3b\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\d79ed2a8832f3fd6be897c47c8b1cc3b\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\08d92652d4e57a28876a7e1c0ab07848\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\08d92652d4e57a28876a7e1c0ab07848\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\95fbf183f2ca86c6ac346a441a8d057a\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\95fbf183f2ca86c6ac346a441a8d057a\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\eed33aa948bc6fb20ac0bfc9b0fe78d4\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\eed33aa948bc6fb20ac0bfc9b0fe78d4\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\9f2b6a93530ee7879c08232443164cd4\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\9f2b6a93530ee7879c08232443164cd4\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\949a9fae55f0ea77a3b10bc3000004bf\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\949a9fae55f0ea77a3b10bc3000004bf\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\091a1327982fddc75f80acbc4db04a1d\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\091a1327982fddc75f80acbc4db04a1d\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\91c559588a576227ad48d110fcd59ff3\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\91c559588a576227ad48d110fcd59ff3\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\09f95be89820958d9abc807b3437f018\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\09f95be89820958d9abc807b3437f018\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\bdba89f165131f92b7643c6c8c380028\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\bdba89f165131f92b7643c6c8c380028\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\c6838ebe40b34123331cda9d6ddd81df\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\c6838ebe40b34123331cda9d6ddd81df\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\ba8a28fcf05f42979ef5038e6c68502d\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\ba8a28fcf05f42979ef5038e6c68502d\AndroidManifest.xml:26:9-47
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from C:\Users\Brane Opacic\Desktop\react-native-app\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
+IMPLIED from C:\Users\Brane Opacic\Desktop\react_native_app\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
