@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Brane Opacic\\Desktop\\react_native_app\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "outputFile": "/Users/josip/Desktop/react_native_app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Brane Opacic\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d79ed2a8832f3fd6be897c47c8b1cc3b\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "/Users/josip/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/7cf430c0b9f8ec0d0fd6e6b39d110dc1/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Brane Opacic\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\ba8a28fcf05f42979ef5038e6c68502d\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "/Users/josip/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/0c1948da90705e7f7a6a23737b4d569f/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
