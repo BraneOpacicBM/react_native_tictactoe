@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue May 15 17:49:01 CEST 2018
+#Tue May 15 21:11:26 CEST 2018
 23.set=NATIVE_RESOURCE
 2.base=/Users/josip/Desktop/react_native_seven/android/app/build/intermediates/transforms/mergeJniLibs/debug/0
 15.set=NATIVE_RESOURCE
