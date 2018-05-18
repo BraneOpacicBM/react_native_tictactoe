@@ -7,15 +7,27 @@ export const addPlace = (placeName, location, image) => {
             name: placeName,
             location: location
         }
-        fetch("https://react-native-android-80076.firebaseio.com/places.json", {
+
+        fetch("https://console.firebase.google.com/project/react-native-android-80076/overview", {
             method: "POST",
-            body: JSON.stringify(placeData)
+            body: JSON.stringify({
+                image: image.base64
+            })
         })
         .catch(err => console.log(err))
         .then(res => res.json())
         .then(parsedRes => {
             console.log(parsedRes)
         })
+        // fetch("https://react-native-android-80076.firebaseio.com/places.json", {
+        //     method: "POST",
+        //     body: JSON.stringify(placeData)
+        // })
+        // .catch(err => console.log(err))
+        // .then(res => res.json())
+        // .then(parsedRes => {
+        //     console.log(parsedRes)
+        // })
     }
 }
 

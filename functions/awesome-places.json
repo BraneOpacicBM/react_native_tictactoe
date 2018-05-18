@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "react-native-android-80076",
+  "private_key_id": "cee14fc56be4ac732a48d47c470e3841f3c48017",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDJIp2SeNCETpWm\nBlKv/tTN4m3kJyEImV52DGxDk6kv2/1TPmAwADexkizJoBsgA5fMNRhJUCKenSqp\nmixCR5JiL8j/Gr5y7IdgkDj7wdBK9F6amwPBT55EFv7nL9z/l/Kfl6wXZqiPGRCO\nAXE0mRBTnm2m8fOKjEc+v/rd5Jr6GkBsNQ2XR1TIbySOalj2jtOj3bQBnZEX7x86\n8XbmUSHnzY6BGIV4XtliV7tQ0No2gq2MLYB18OKo0lu7CZazAQc9923Y1nHqR2Vj\n+oi9QxegqgiutHutWrnHa6ZqLKhS2PBs5rGZam5sZgN1YzarIJt/muzQ3ES8CxDy\no6BDAJ8bAgMBAAECggEAFDrCjWpQUpZSz9V/+IqRXbnB4roaxPIkAYyDURKnaBRg\nuMAjzYAgGeCBV7AeOkySNmw6qpkAOmLFWTST8gCf1PdIaHwInqdygEBRMuUN7ZQB\nddxUdttqqB+F+LukJyLhuLJ5EQt2tZnIQ/gaKjeg4EAleC6Kl6s/OSz27t1gxvmy\nM1cyoK9zReU2IUX0zPykKQUiOgFjBhqvfOspvNmiUtigFOqGBYa23l/B6Vm2mQ04\nBi1DkVK/C45Y/pvewiEggtSWQEn9K+g1l8eZkTMKDKL24a1aRILII0mPgGFlwmwv\nLUKsYdy2eiv0IGKwsBA2xF6UObJLiW6UkxaXmxeI6QKBgQDzA+FXSNR3lgiI7uzT\nfxb/39HgQ9FnTcBotXXkUFx0TjTn4bP+ZvDxLRHNDqPseYrljxTkVU1lnK/BD4vr\n7/+nW+wcX4op7oFqWhdUMEGAVybhzBME8TvTUI7bxA+5Hw/oqiwI6q1ytUxz71DZ\ne9Pi7gk4UMkYI4lQkgeldp/6WQKBgQDT4d/IQQvtAoihAK3GShGenCD789/4LLm6\nyh9xau2pQDt2ToI4uuijjwXMWUxyl6HjZJGKpaVvezJA/q/Zy2EfuXRuCz3Qy0T7\nBQZ53WWC3vq7qvKPOjm2SIBxercxbYoW8sv+lzLhxqg4VsE/iqZ2Z7A/VceWKvDJ\n7MnIDKsOkwKBgQCqPK+hC537YBj+hBFXX5JnEQ3fQuLwsSD2uRerJzh9KUQapJwI\nvWhQKzhrI7Rltgc9JOyHv9IGOqtMXW2xjGDVhqlyfuM02KXEMPRiv6NDGspcJy+z\nqKI2OBq7jS9OiZoFbSCH5o426xZxqNZEZGBcek/vKXiV9l79GC9PFDihkQKBgDsG\ndIHj5P+cshUwDDjuD2SBGAs4UA9h3kez4PiGkjiRJT969Xn6T66ovDPGOK6/oSCo\ntobKSID67+/9Q13H84GT92Rki07sIYZQSxKN46aGmZDIOZQ+4y7tmaKDTh9d5Zcp\nAj0lP853ugsf1+vsoxzfG9E5A0XJJpUJ+thY9xozAoGAEO/BmoSfj+hQk/Oyjsz4\nNILOH9zn4U8/rjBz4zfsZXD4ll4KksNplP96UdBY7QFA3aAd1iK/kR5pGVw5chld\nrjVEflPDK1J8zCRoTekE5HBY8qZMkLluyBMH+pudmBKzUr1o+S6C2g7WafitVSGW\n207+fSsIVnmZSdcT/qbONgg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-pua40@react-native-android-80076.iam.gserviceaccount.com",
+  "client_id": "109953026499098777930",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-pua40%40react-native-android-80076.iam.gserviceaccount.com"
+}
