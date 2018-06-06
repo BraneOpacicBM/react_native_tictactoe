@@ -1,32 +1,24 @@
 import { Navigation } from 'react-native-navigation';
 import { Provider } from 'react-redux';
 
-
-import AuthScreen from './src/screens/Auth/Auth';
-import SharePlaceScreen from './src/screens/SharePlace/SharePlace';
-import FindPlaceScreen from './src/screens/FindPlace/FindPlace';
-import PlaceDetailScreen from './src/screens/PlaceDetail/PlaceDetail';
-import SideDrawer from './src/screens/SideDrawer/SideDrawer';
+import TicTacToe from './src/screens/TicTacToe/TicTacToe';
+import StartScreen from './src/screens/StartScreen/StartScreen';
 import configureStore from './src/store/configureStore';
-
-
 
 
 const store = configureStore();
 
 // Register Screens
-Navigation.registerComponent("awesome-places.AuthScreen", () => AuthScreen, store, Provider);
-Navigation.registerComponent("awesome-places.SharePlaceScreen", () => SharePlaceScreen, store, Provider);
-Navigation.registerComponent("awesome-places.FindPlaceScreen", () => FindPlaceScreen, store, Provider);
-Navigation.registerComponent("awesome-places.PlaceDetailScreen", () => PlaceDetailScreen, store, Provider);
-Navigation.registerComponent("awesome-places.SideDrawer", () => SideDrawer, store, Provider);
-
+Navigation.registerComponent("tictactoe.StartScreen", () => StartScreen);
+Navigation.registerComponent("tictactoe.TicTacToe", () => TicTacToe);
 
 
 //Start an App
 Navigation.startSingleScreenApp({
   screen: {
-    screen: "awesome-places.AuthScreen",
-    title: "Login"
+    screen: "tictactoe.StartScreen",
+    navigatorStyle: {
+      navBarHidden: true,
+    }
   }
 })
