@@ -1,7 +1,8 @@
 import React, { Component } from 'react'; 
 import { View, Text, Image, TouchableWithoutFeedback, StyleSheet, Dimensions } from 'react-native';
 import { connect } from 'react-redux';
-import imageGrid from '../../assets/grid2.png'
+import imageGrid from '../../assets/grid2.png';
+
 
 class StartScreen extends Component {
 

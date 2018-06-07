@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { View, Text, TouchableWithoutFeedback, StyleSheet, Dimensions } from 'react-native';
+import Icon from 'react-native-vector-icons/Ionicons';
 
 class TicTacToe extends Component {
 
@@ -45,8 +46,8 @@ class TicTacToe extends Component {
                         <Text style={styles.messageText}>X moves first!</Text>
                     </View>
                     <View style={[styles.boardContainer, this.state.respStyles.flexDirection === "row" ? {marginLeft: 30, marginRight: 30, marginTop: 20} : null ]}>
-                        <View style={styles.cellContainer}></View>
-                        <View style={styles.cellContainer}></View>
+                        <View style={styles.cellContainer}><Icon size={40} color="red" name="md-radio-button-off" /></View>
+                        <View style={styles.cellContainer}><Icon size={40} color="blue" name="md-close" /></View>
                         <View style={styles.cellContainer}></View>
                         <View style={styles.cellContainer}></View>
                         <View style={styles.cellContainer}></View>
@@ -102,7 +103,9 @@ const styles = StyleSheet.create({
         height: 80,
         width:  80,
         borderColor: "black",
-        borderWidth: 2
+        borderWidth: 2,
+        justifyContent: "center",
+        alignItems: "center"
     },
     cellInner: {
         borderColor: "blue",
