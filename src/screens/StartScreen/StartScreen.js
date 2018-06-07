@@ -1,9 +1,31 @@
 import React, { Component } from 'react'; 
-import { View, Text, Image, TouchableWithoutFeedback, StyleSheet } from 'react-native';
+import { View, Text, Image, TouchableWithoutFeedback, StyleSheet, Dimensions } from 'react-native';
 import { connect } from 'react-redux';
 import imageGrid from '../../assets/grid2.png'
 
 class StartScreen extends Component {
+
+    state = {
+        respStyles: {
+            flexDirection: "column"
+        }
+    }
+
+
+    constructor(props){
+        super(props);
+        Dimensions.addEventListener("change", (dims) => {
+            this.setState(prevState => {
+                return {
+                    respStyles: {
+                        flexDirection: Dimensions.get("window").height > 500 ? "column" : "row"
+                    }
+                }
+            })
+        })
+    }
+
+
 
     gameStartHandler = () => {
         this.props.navigator.push({
@@ -16,19 +38,21 @@ class StartScreen extends Component {
     }
 
     render(){
+
+    
         return(
-            <View style={styles.container}>
+            <View style={[styles.container, {flexDirection: this.state.respStyles.flexDirection}]}>
                 <View style={styles.headingContainer}>
                     <Text style={styles.headingText}>WELCOME</Text>
                     <View style={styles.subHeadingContainer}>
                         <Text style={styles.subHeadingText}>To the multi-player</Text>
                         <View style={styles.tictactoeSubHeading}>
-                            <Text style={styles.subHeadingText}>Tic-Tac-Toe</Text>
+                            <Text style={[styles.subHeadingText, styles.tictactoeText]}>Tic-Tac-Toe</Text>
                         </View>
                         <Text style={styles.subHeadingText}>game!</Text>
                     </View>
                 </View>
-                <View>
+                <View style={styles.imageContainer}>
                     <Image source={imageGrid} style={styles.imageGrid} />
                 </View>
                 <View style={styles.buttonHolder}>
@@ -52,17 +76,28 @@ const styles = StyleSheet.create({
         backgroundColor: "#7acfd6"
     },
     headingContainer: {
-        alignItems: "center"
+        alignItems: "center",
+        borderWidth: 1,
+        borderWidth: 0
+        
     },
     subHeadingContainer: {
         alignItems: "center"
     },
+    imageContainer: {
+        borderWidth: 4,
+        borderColor: "white",
+        borderRadius: 4
+    },
     tictactoeSubHeading: {
         borderWidth: 1,
-        borderColor: "#000",
+        borderColor: "#fff",
+        borderRadius: 20,
         padding: 5,
-        marginTop: 10,
-        marginBottom: 10
+        paddingLeft: 10,
+        paddingRight: 10,
+        marginTop: 20,
+        marginBottom: 20
     },
     imageGrid: {
         height: 200,
@@ -89,8 +124,12 @@ const styles = StyleSheet.create({
     },
     subHeadingText: {
         color: "#000",
-        fontSize: 14,
+        fontSize: 18,
         fontWeight: "100",
+        
+    },
+    tictactoeText: {
+        color: "#fff",
         
     }
 })

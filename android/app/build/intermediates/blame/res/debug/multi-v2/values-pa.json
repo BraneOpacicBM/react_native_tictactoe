@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/josip/Desktop/react_native_seven/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pa/values-pa.xml",
+            "outputFile": "C:\\Users\\Brane Opacic\\Desktop\\tictactoe\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pa\\values-pa.xml",
             "map": [
                 {
-                    "source": "/Users/josip/.gradle/caches/transforms-1/files-1.1/play-services-base-10.0.1.aar/ab6c488b8a6db916ce0ce6a56f0186de/res/values-pa/values.xml",
+                    "source": "C:\\Users\\Brane Opacic\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-10.0.1.aar\\52465c52c47cc1d552a080a0f62dcf52\\res\\values-pa\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/josip/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/a0ad0746f7b8d0b41cb762c03ef43980/res/values-pa/values.xml",
+                    "source": "C:\\Users\\Brane Opacic\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-10.0.1.aar\\6769f69457ac9348899ac0a7ff13ee7c\\res\\values-pa\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
