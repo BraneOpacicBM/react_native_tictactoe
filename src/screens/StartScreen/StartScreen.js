@@ -11,18 +11,20 @@ class StartScreen extends Component {
         }
     }
 
+    dimensionsCallback = (dims) => {
+        this.setState(prevState => {
+            return {
+                respStyles: {
+                    flexDirection: Dimensions.get("window").height > 500 ? "column" : "row"
+                }
+            }
+        })
+    }
+
 
     constructor(props){
         super(props);
-        Dimensions.addEventListener("change", (dims) => {
-            this.setState(prevState => {
-                return {
-                    respStyles: {
-                        flexDirection: Dimensions.get("window").height > 500 ? "column" : "row"
-                    }
-                }
-            })
-        })
+        Dimensions.addEventListener("change", this.dimensionsCallback)
     }
 
 
