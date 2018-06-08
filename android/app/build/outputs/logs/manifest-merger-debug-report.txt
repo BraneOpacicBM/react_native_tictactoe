@@ -12,6 +12,7 @@ MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\Brane
 MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\e1ae92e7763d7fb9609148d6283bd449\AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support:design:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\ba8a28fcf05f42979ef5038e6c68502d\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\d79ed2a8832f3fd6be897c47c8b1cc3b\AndroidManifest.xml:17:1-31:12
+MERGED from [:react-native-video] C:\Users\Brane Opacic\Desktop\tictactoe\node_modules\react-native-video\android-exoplayer\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-maps] C:\Users\Brane Opacic\Desktop\tictactoe\node_modules\react-native-maps\lib\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-12:12
 MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\8ab111817afd9f202c996e726e06154c\AndroidManifest.xml:16:1-25:12
 MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\52465c52c47cc1d552a080a0f62dcf52\AndroidManifest.xml:16:1-21:12
@@ -24,6 +25,8 @@ MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\Brane Opacic\.gradle\cac
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.3.0.aar\64c40bf533fdd09d0780911c2ace812b\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\29d1f63c748389f41ba38d12a7a6e736\AndroidManifest.xml:1:1-4:12
 MERGED from [org.webkit:android-jsc:r174650] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\d594847ec2bf578cba3304032d9d211a\AndroidManifest.xml:1:1-3:12
+MERGED from [com.google.android.exoplayer:exoplayer:2.7.3] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\exoplayer-2.7.3.aar\015f9441acc642a1879671bec8ad7c95\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:extension-okhttp:2.7.3] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\extension-okhttp-2.7.3.aar\238e5085f95249a90ce4a051011ef8b8\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\c9cb90ed7727b05ab86a5c6877bee695\AndroidManifest.xml:2:1-13:12
 MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\drawee-1.3.0.aar\6a08b432fe906d1492e88e00c85af3a0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.3.0.aar\308f5dcf4ae0e15b10a5d511d9af2d5b\AndroidManifest.xml:2:1-9:12
@@ -31,6 +34,11 @@ MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\Brane Opacic
 MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\ee35110e549d57cc42c0b560ecf12c8f\AndroidManifest.xml:2:1-9:12
 MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\eed33aa948bc6fb20ac0bfc9b0fe78d4\AndroidManifest.xml:17:1-26:12
 MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\material-menu-1.5.4.aar\767475bc8d379c94e105f6f16cf3dab4\AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.7.3] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\exoplayer-dash-2.7.3.aar\f1a081ac837db299f5a5fc66cab506f5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.7.3] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\exoplayer-hls-2.7.3.aar\907c1686932b0cb55f0fde6710611f19\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.7.3] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\exoplayer-smoothstreaming-2.7.3.aar\7022572103374f8441c248d3bef56be2\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.7.3] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\exoplayer-ui-2.7.3.aar\682338c21166ad92052c047063e0657e\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.7.3] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\exoplayer-core-2.7.3.aar\e59f91d70679a3c6c8ed99a1e01b0a2f\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\9f2b6a93530ee7879c08232443164cd4\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\949a9fae55f0ea77a3b10bc3000004bf\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\091a1327982fddc75f80acbc4db04a1d\AndroidManifest.xml:17:1-31:12
@@ -195,6 +203,8 @@ MERGED from [com.android.support:design:25.3.1] C:\Users\Brane Opacic\.gradle\ca
 MERGED from [com.android.support:design:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\ba8a28fcf05f42979ef5038e6c68502d\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\d79ed2a8832f3fd6be897c47c8b1cc3b\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\d79ed2a8832f3fd6be897c47c8b1cc3b\AndroidManifest.xml:21:5-23:78
+MERGED from [:react-native-video] C:\Users\Brane Opacic\Desktop\tictactoe\node_modules\react-native-video\android-exoplayer\build\intermediates\manifests\full\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-video] C:\Users\Brane Opacic\Desktop\tictactoe\node_modules\react-native-video\android-exoplayer\build\intermediates\manifests\full\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-maps] C:\Users\Brane Opacic\Desktop\tictactoe\node_modules\react-native-maps\lib\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-maps] C:\Users\Brane Opacic\Desktop\tictactoe\node_modules\react-native-maps\lib\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\8ab111817afd9f202c996e726e06154c\AndroidManifest.xml:23:5-42
@@ -217,6 +227,10 @@ MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\Brane Opa
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.3.0.aar\64c40bf533fdd09d0780911c2ace812b\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\29d1f63c748389f41ba38d12a7a6e736\AndroidManifest.xml:2:3-70
 MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\29d1f63c748389f41ba38d12a7a6e736\AndroidManifest.xml:2:3-70
+MERGED from [com.google.android.exoplayer:exoplayer:2.7.3] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\exoplayer-2.7.3.aar\015f9441acc642a1879671bec8ad7c95\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer:2.7.3] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\exoplayer-2.7.3.aar\015f9441acc642a1879671bec8ad7c95\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:extension-okhttp:2.7.3] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\extension-okhttp-2.7.3.aar\238e5085f95249a90ce4a051011ef8b8\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:extension-okhttp:2.7.3] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\extension-okhttp-2.7.3.aar\238e5085f95249a90ce4a051011ef8b8\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\c9cb90ed7727b05ab86a5c6877bee695\AndroidManifest.xml:5:5-43
 MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\c9cb90ed7727b05ab86a5c6877bee695\AndroidManifest.xml:5:5-43
 MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\drawee-1.3.0.aar\6a08b432fe906d1492e88e00c85af3a0\AndroidManifest.xml:5:5-7:41
@@ -231,6 +245,16 @@ MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Brane Opacic\.
 MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\eed33aa948bc6fb20ac0bfc9b0fe78d4\AndroidManifest.xml:20:5-43
 MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\material-menu-1.5.4.aar\767475bc8d379c94e105f6f16cf3dab4\AndroidManifest.xml:8:5-10:41
 MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\material-menu-1.5.4.aar\767475bc8d379c94e105f6f16cf3dab4\AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.7.3] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\exoplayer-dash-2.7.3.aar\f1a081ac837db299f5a5fc66cab506f5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.7.3] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\exoplayer-dash-2.7.3.aar\f1a081ac837db299f5a5fc66cab506f5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.7.3] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\exoplayer-hls-2.7.3.aar\907c1686932b0cb55f0fde6710611f19\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.7.3] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\exoplayer-hls-2.7.3.aar\907c1686932b0cb55f0fde6710611f19\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.7.3] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\exoplayer-smoothstreaming-2.7.3.aar\7022572103374f8441c248d3bef56be2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.7.3] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\exoplayer-smoothstreaming-2.7.3.aar\7022572103374f8441c248d3bef56be2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.7.3] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\exoplayer-ui-2.7.3.aar\682338c21166ad92052c047063e0657e\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.7.3] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\exoplayer-ui-2.7.3.aar\682338c21166ad92052c047063e0657e\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.7.3] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\exoplayer-core-2.7.3.aar\e59f91d70679a3c6c8ed99a1e01b0a2f\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.7.3] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\exoplayer-core-2.7.3.aar\e59f91d70679a3c6c8ed99a1e01b0a2f\AndroidManifest.xml:20:5-22:41
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\9f2b6a93530ee7879c08232443164cd4\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\9f2b6a93530ee7879c08232443164cd4\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Brane Opacic\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\949a9fae55f0ea77a3b10bc3000004bf\AndroidManifest.xml:20:5-43
