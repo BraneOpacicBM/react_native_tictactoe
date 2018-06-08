@@ -31,7 +31,13 @@ class TicTacToe extends Component {
     
 
     resetHandler = () => {
-        console.log(this.state.viewMode)
+        this.props.navigator.push({
+            screen: "tictactoe.VideoScreen",
+            title: "Congrats!",
+            navigatorStyle: {
+                navBarButtonColor: "black"
+              }
+        })
     }
     
 
