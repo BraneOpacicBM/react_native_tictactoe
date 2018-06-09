@@ -1,4 +1,4 @@
-#Fri Jun 08 13:40:35 CEST 2018
-base.0=C\:\\Users\\Brane Opacic\\Desktop\\tictactoe\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
-path.0=classes.dex
+#Sat Jun 09 13:09:38 CEST 2018
+base.0=/Users/josip/Desktop/tictactoe/android/app/build/intermediates/transforms/dexMerger/debug/0
 renamed.0=classes.dex
+path.0=classes.dex
