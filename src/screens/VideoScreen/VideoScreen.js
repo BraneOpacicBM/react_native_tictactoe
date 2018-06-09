@@ -2,9 +2,15 @@ import React, { Component } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import Video from 'react-native-video';
 import LightVideo from '../../assets/background.mp4';
+import WinnerInfo from '../../components/WinnerInfo/WinnerInfo';
 
 
 class VideoScreen extends Component {
+
+    backToApp = () => {
+        this.props.navigator.popToRoot();
+    }
+
     render(){
         return(
             <View style={styles.container}>
@@ -19,6 +25,7 @@ class VideoScreen extends Component {
                 volume={1.0}
                 muted={false}
                 />
+                <WinnerInfo btnPress={this.backToApp}/>
             </View>
         )
     }
@@ -28,8 +35,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         width: "100%",
-        height: "100%",
-        backgroundColor: "red"
+        height: "100%"
     }
 })
 

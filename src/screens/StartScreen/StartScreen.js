@@ -6,6 +6,11 @@ import imageGrid from '../../assets/grid2.png';
 
 class StartScreen extends Component {
 
+    constructor(props){
+        super(props);
+        Dimensions.addEventListener("change", this.dimensionsCallback)
+    }
+
     state = {
         respStyles: {
             flexDirection: "column"
@@ -21,14 +26,6 @@ class StartScreen extends Component {
             }
         })
     }
-
-
-    constructor(props){
-        super(props);
-        Dimensions.addEventListener("change", this.dimensionsCallback)
-    }
-
-
 
     gameStartHandler = () => {
         this.props.navigator.push({
@@ -96,7 +93,6 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         borderColor: "#fff",
         borderRadius: 20,
-        padding: 5,
         paddingLeft: 10,
         paddingRight: 10,
         marginTop: 20,
@@ -121,9 +117,9 @@ const styles = StyleSheet.create({
     },
     headingText: {
         color: "#000",
-        fontSize: 30,
-        marginBottom: 15,
-        fontWeight: "bold"
+        fontSize: 40,
+        marginBottom: 20,
+        fontWeight: "900"
     },
     subHeadingText: {
         color: "#000",

@@ -1,10 +1,15 @@
 
 
 import React, { Component } from 'react';
-import { View, Text, TouchableWithoutFeedback, StyleSheet, Dimensions } from 'react-native';
+import { View, Text, TouchableWithoutFeedback, StyleSheet, Dimensions, AsyncStorage } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 
 class TicTacToe extends Component {
+
+    constructor(props){
+        super(props);
+        Dimensions.addEventListener("change", this.dimensionsCallback)
+    }
 
     state = {
         respStyles: {
@@ -47,10 +52,11 @@ class TicTacToe extends Component {
                 screen: "tictactoe.VideoScreen",
                 title: "Congrats!",
                 navigatorStyle: {
-                    navBarButtonColor: "black"
+                    navBarButtonColor: "black",
+                    navBarHidden: true
                   }
             })
-        }, 1000)
+        }, 1500)
     }
 
     checkForWinner = (board) => {
@@ -61,53 +67,71 @@ class TicTacToe extends Component {
                 playableGame: false
             })
             this.playWinningVideo();
+            let winner = board[0] + " is the winner!"
+            AsyncStorage.setItem("winner", JSON.stringify(winner));
           } else if(board[3] !== "" && board[3] === board[4] && board[3] === board[5]){
             this.setState({
                 message: board[3] + " is the winner!",
                 playableGame: false
             }),
-            this.playWinningVideo()
+            this.playWinningVideo();
+            let winner = board[3] + " is the winner!"
+            AsyncStorage.setItem("winner", JSON.stringify(winner));
           } else if(board[6] !== "" && board[6] === board[7] && board[6] === board[8]){
             this.setState({
                 message: board[6] + " is the winner!",
                 playableGame: false
             }),
             this.playWinningVideo();
+            let winner = board[6] + " is the winner!"
+            AsyncStorage.setItem("winner", JSON.stringify(winner));
           } else if(board[0] !== "" && board[0] === board[3] && board[0] === board[6]){
             this.setState({
                 message: board[0] + " is the winner!",
                 playableGame: false
             }),
             this.playWinningVideo();
+            let winner = board[0] + " is the winner!"
+            AsyncStorage.setItem("winner", JSON.stringify(winner));
           } else if(board[1] !== "" && board[1] === board[4] && board[1] === board[7]){
             this.setState({
                 message: board[1] + " is the winner!",
                 playableGame: false
             }),
             this.playWinningVideo();
+            let winner = board[1] + " is the winner!"
+            AsyncStorage.setItem("winner", JSON.stringify(winner));
           } else if(board[2] !== "" && board[2] === board[5] && board[2] === board[8]){
             this.setState({
                 message: board[2] + " is the winner!",
                 playableGame: false
             }),
             this.playWinningVideo();
+            let winner = board[2] + " is the winner!"
+            AsyncStorage.setItem("winner", JSON.stringify(winner));
           } else if(board[0] !== "" && board[0] === board[4] && board[0] === board[8]){
             this.setState({
                 message: board[0] + " is the winner!",
                 playableGame: false
             }),
             this.playWinningVideo();
+            let winner = board[0] + " is the winner!"
+            AsyncStorage.setItem("winner", JSON.stringify(winner));
           } else if(board[2] !== "" && board[2] === board[4] && board[2] === board[6]){
             this.setState({
                 message: board[2] + " is the winner!",
                 playableGame: false
             }),
             this.playWinningVideo();
+            let winner = board[2] + " is the winner!"
+            AsyncStorage.setItem("winner", JSON.stringify(winner));
           } else  {
             if([].concat(board).sort().reverse().pop() !== "") {
                 this.setState({
                     message: "It's a draw!"
                 })
+                let winner = "Match was a draw!"
+                AsyncStorage.setItem("winner", JSON.stringify(winner));
             }
           }
     }
@@ -130,11 +154,6 @@ class TicTacToe extends Component {
                 }
             }
         })
-    }
-
-    constructor(props){
-        super(props);
-        Dimensions.addEventListener("change", this.dimensionsCallback)
     }
 
     componentWillUnmount() {
@@ -198,8 +217,7 @@ const styles = StyleSheet.create({
     gameContainer: {
         justifyContent: "center",
         alignItems: "center"
-        
-        
+
     },
     boardContainer: {
         flexWrap: "wrap",
