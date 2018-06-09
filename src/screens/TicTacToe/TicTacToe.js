@@ -14,59 +14,95 @@ class TicTacToe extends Component {
                  "", "", "",
                   "", "", ""],
         playerTurn: "X",
-        message: "It's X's turn!"
+        message: "It's X's turn!",
+        checkForWinner: null,
+        playableGame: true
     }
 
     selectElement = (e, index) => {
         let boardItems = [...this.state.board];
         if(boardItems[index] === "") {
             boardItems[index] = this.state.playerTurn;
-            this.setState(prevState => {
-                return {
-                    board: boardItems,
-                    playerTurn: prevState.playerTurn === "X" ? "O" : "X",
-                    message: prevState.message === "It's X's turn!" ? "It's O's turn!" : "It's X's turn!"
+            if(this.state.playableGame){
+                this.setState(prevState => {
+                    return {
+                        board: boardItems,
+                        playerTurn: prevState.playerTurn === "X" ? "O" : "X",
+                        message: prevState.message === "It's X's turn!" ? "It's O's turn!" : "It's X's turn!" 
+                    }
+                },
+                () => {
+                    this.checkForWinner(this.state.board);
                 }
-            })
-            this.checkForWinner(this.state.board)
+            )
+            }
+            
         }
         
+    }
+
+    playWinningVideo = () => {
+        setTimeout(() => {
+            this.props.navigator.push({
+                screen: "tictactoe.VideoScreen",
+                title: "Congrats!",
+                navigatorStyle: {
+                    navBarButtonColor: "black"
+                  }
+            })
+        }, 1000)
     }
 
     checkForWinner = (board) => {
         console.log(board)
         if(board[0] !== "" && board[0] === board[1] && board[0] === board[2]){
             this.setState({
-                message: board[0] + " is the winner!"
+                message: board[0] + " is the winner!",
+                playableGame: false
             })
+            this.playWinningVideo();
           } else if(board[3] !== "" && board[3] === board[4] && board[3] === board[5]){
-            cthis.setState({
-                message: board[3] + " is the winner!"
-            })
+            this.setState({
+                message: board[3] + " is the winner!",
+                playableGame: false
+            }),
+            this.playWinningVideo()
           } else if(board[6] !== "" && board[6] === board[7] && board[6] === board[8]){
             this.setState({
-                message: board[6] + " is the winner!"
-            })
+                message: board[6] + " is the winner!",
+                playableGame: false
+            }),
+            this.playWinningVideo();
           } else if(board[0] !== "" && board[0] === board[3] && board[0] === board[6]){
-            cthis.setState({
-                message: board[0] + " is the winner!"
-            })
+            this.setState({
+                message: board[0] + " is the winner!",
+                playableGame: false
+            }),
+            this.playWinningVideo();
           } else if(board[1] !== "" && board[1] === board[4] && board[1] === board[7]){
             this.setState({
-                message: board[1] + " is the winner!"
-            })
+                message: board[1] + " is the winner!",
+                playableGame: false
+            }),
+            this.playWinningVideo();
           } else if(board[2] !== "" && board[2] === board[5] && board[2] === board[8]){
             this.setState({
-                message: board[2] + " is the winner!"
-            })
+                message: board[2] + " is the winner!",
+                playableGame: false
+            }),
+            this.playWinningVideo();
           } else if(board[0] !== "" && board[0] === board[4] && board[0] === board[8]){
             this.setState({
-                message: board[0] + " is the winner!"
-            })
+                message: board[0] + " is the winner!",
+                playableGame: false
+            }),
+            this.playWinningVideo();
           } else if(board[2] !== "" && board[2] === board[4] && board[2] === board[6]){
             this.setState({
-                message: board[2] + " is the winner!"
-            })
+                message: board[2] + " is the winner!",
+                playableGame: false
+            }),
+            this.playWinningVideo();
           } else  {
             if([].concat(board).sort().reverse().pop() !== "") {
                 this.setState({
@@ -115,16 +151,9 @@ class TicTacToe extends Component {
                      "", "", "",
                       "", "", ""],
             playerTurn: "X",
-            message: "It's X's turn!"
+            message: "It's X's turn!",
+            playableGame: true
         })
-
-        // this.props.navigator.push({
-        //     screen: "tictactoe.VideoScreen",
-        //     title: "Congrats!",
-        //     navigatorStyle: {
-        //         navBarButtonColor: "black"
-        //       }
-        // })
     }
     
 
