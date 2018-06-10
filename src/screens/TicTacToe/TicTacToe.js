@@ -163,9 +163,6 @@ class TicTacToe extends Component {
 
     resetHandler = () => {
         this.setState({
-            respStyles: {
-                flexDirection: "column"
-            },
             board: ["", "", "",
                      "", "", "",
                       "", "", ""],

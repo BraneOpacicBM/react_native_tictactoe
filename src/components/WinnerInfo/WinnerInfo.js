@@ -5,7 +5,7 @@ import Icon from 'react-native-vector-icons/Ionicons';
 class WinnerInfo extends Component {
 
     state = {
-        winnerInfo: "Zamalo"
+        winnerInfo: null
     }
 
     componentWillMount() {
@@ -26,7 +26,7 @@ class WinnerInfo extends Component {
                     <View style={styles.opacityContainer}>
                         <View style={styles.asyncInfoWrapper}>
                             <Text style={styles.infoWinnerText}>Last Winner:</Text>
-                            <Text style={[styles.infoWinnerText, {fontSize: 24, color: "red"}]}>{this.state.winnerInfo}</Text>
+                            <Text style={[styles.infoWinnerText, {fontSize: 24, color: "red"}]}>{this.state.winnerInfo ? (this.state.winnerInfo == '"X is the winner!"' ? "Player X" : "Player O") : null}</Text>
                         </View>
                         <TouchableOpacity onPress={this.props.btnPress}>
                             <View style={styles.backButton}>
@@ -82,7 +82,6 @@ const styles = StyleSheet.create({
         borderColor: "#7acfd6",
         backgroundColor: "transparent",
         paddingLeft: 10,
-        paddingRight: 10,
         borderRadius: 10,
         flexDirection: "row"
     },
