@@ -41,53 +41,89 @@ class StartScreen extends Component {
 
     
         return(
-            <ImageBackground source={imgBackground} style={[styles.container, {flexDirection: this.state.respStyles.flexDirection}]}>
+            <View style={[styles.container]}>
                 <View style={styles.headingContainer}>
                     <Text style={styles.headingText}>WELCOME</Text>
                     <View style={styles.subHeadingContainer}>
-                        <Text style={styles.subHeadingText}>To the multi-player</Text>
-                        <View style={styles.tictactoeSubHeading}>
-                            <Text style={[styles.subHeadingText, styles.tictactoeText]}>Tic-Tac-Toe</Text>
-                        </View>
-                        <Text style={styles.subHeadingText}>game!</Text>
+                        <Text style={styles.subHeadingText}>TO THE MULTI-PLAYER</Text>
                     </View>
                 </View>
-                <View style={styles.imageContainer}>
-                    <Image source={imageGrid} style={styles.imageGrid} />
+                <View style={styles.midPage}>
+                    <View style={[styles.midPageFirst]}>
+                        <Text style={styles.tictactoeMidPage}>TicTacToe</Text>
+                        <Text style={styles.tictactoeMidPage}>GAME!</Text>
+                    </View>
+                    <View style={styles.midPageSecond}>
+                        <Image source={imageGrid} style={this.state.respStyles.flexDirection === "column" ? styles.imageGrid : styles.imageGridLandscape} />
+                    </View>
                 </View>
-                <View style={styles.buttonHolder}>
-                    <TouchableOpacity onPress={this.gameStartHandler}>
-                        <View style={styles.touchOpacity}>
-                         <Text style={styles.buttonText}>Play!</Text>
-                        </View>
-                    </TouchableOpacity>
+                <View style={styles.bottomPage}>
+                    <View style={styles.buttonHolder}>
+                        <TouchableOpacity onPress={this.gameStartHandler}>
+                            <View style={styles.touchOpacity}>
+                            <Text style={styles.buttonText}>- PLAY -</Text>
+                            </View>
+                        </TouchableOpacity>
+                    </View>
                 </View>
-            </ImageBackground>
+            </View>
         )
     }
 }
 
 const styles = StyleSheet.create({
     container: {      
-        borderWidth: 1,
+        borderWidth: 4,
         flex: 1,
-        justifyContent: "space-around",
         alignItems: "center",
-        backgroundColor: "#7acfd6"
+        padding: 10
     },
     headingContainer: {
         alignItems: "center",
-        borderWidth: 1,
-        borderWidth: 0
+        justifyContent: 'center',
+        width: '100%',
+        flex: 2,
+        marginBottom: 10,
+        backgroundColor: 'teal'
         
     },
     subHeadingContainer: {
-        alignItems: "center"
+        alignItems: "center",
+        backgroundColor: 'orange',
+        padding: 10,
+        borderRadius: 5
     },
-    imageContainer: {
-        borderWidth: 2,
-        borderColor: "#000",
-        borderRadius: 6
+    midPage: {
+        width: '100%',
+        flex: 2,
+        marginBottom: 10,
+        flexDirection: 'row'
+    },
+    midPageFirst: {
+        flex: 2,
+        marginRight: 5,
+        backgroundColor: 'orange',
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
+    tictactoeMidPage: {
+        color: '#fff',
+        fontSize: 18,
+        fontWeight: '500'
+    },
+    midPageSecond: {
+        flex: 4,
+        backgroundColor: 'teal',
+        marginLeft: 5,
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
+    bottomPage: {
+        width: '100%',
+        backgroundColor: 'teal',
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center'
     },
     tictactoeSubHeading: {
         borderWidth: 3,
@@ -104,33 +140,44 @@ const styles = StyleSheet.create({
         height: 230,
         width: 230
     },
+    imageGridLandscape: {
+        height: 150,
+        width: 150
+    },
     buttonHolder: {
-        borderColor: "#000",
-        borderWidth: 3,
         borderRadius: 5,
         alignItems: "center",
+        justifyContent: 'center'
     },
     touchOpacity: {
-        backgroundColor: 'transparent',
-        alignSelf: 'stretch',
+        backgroundColor: 'rgba(0, 0, 0, 0.4)',
         paddingTop: 15,
         paddingBottom: 15,
-        paddingLeft: 25,
-        paddingRight: 25,
+        paddingLeft: 50,
+        paddingRight: 50,
     },
     buttonText: {
-        color: "#000"
+        color: "#fff",
+        fontSize: 21
     },
     headingText: {
-        color: "#000",
-        fontSize: 40,
+        color: "#fff",
+        fontSize: 45,
+        elevation: 2,
+        shadowColor: '#000',
+        shadowOffset: {
+            width: 0,
+            height: 3
+          },
+          shadowRadius: 5,
+          shadowOpacity: 0.6,
         marginBottom: 20,
         fontWeight: "900"
     },
     subHeadingText: {
         color: "#000",
-        fontSize: 18,
-        fontWeight: "100",
+        fontSize: 14,
+        fontWeight: "900",
         
     },
     tictactoeText: {

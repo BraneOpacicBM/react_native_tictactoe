@@ -173,7 +173,7 @@ class TicTacToe extends Component {
         })
 
         return(
-            <ImageBackground source={imgBackground} style={[styles.wrapper, this.state.respStyles.flexDirection === "row" ? { justifyContent: "center", alignItems: "center"} : null]}>
+            <View style={[styles.wrapper, this.state.respStyles.flexDirection === "row" ? { justifyContent: "center", alignItems: "center"} : null]}>
                 <View style={[styles.gameContainer, {flexDirection: this.state.respStyles.flexDirection, marginTop: 20}]}>
                     <View style={[styles.messageDisplayWrapper, this.state.respStyles.flexDirection === "row" ? { alignSelf: "flex-start", marginTop: 50} : null]}>
                         <Text style={styles.messageText}>{this.state.message}</Text>
@@ -184,12 +184,12 @@ class TicTacToe extends Component {
                     <View style={[styles.buttonHolder, this.state.respStyles.flexDirection === "row" ? { alignSelf: "flex-end", marginBottom: 80} : null]}>
                         <TouchableOpacity onPress={this.resetHandler}>
                             <View style={styles.touchOpacity}>
-                            <Text style={styles.buttonText}>Reset</Text>
+                            <Text style={styles.buttonText}>- RESET -</Text>
                             </View>
                         </TouchableOpacity>
                     </View>
                 </View>
-            </ImageBackground>
+            </View>
         )
     }
 }
@@ -198,13 +198,16 @@ class TicTacToe extends Component {
 const styles = StyleSheet.create({
     wrapper: {
         flex: 1,
-        backgroundColor: "#7acfd6",
+        backgroundColor: "teal",
         justifyContent: "center",
         alignItems: "center"
     },
     gameContainer: {
         justifyContent: "center",
-        alignItems: "center"
+        alignItems: "center",
+        backgroundColor: 'rgba(0, 0, 0, 0.3)',
+        padding: 25,
+        borderRadius: 10
 
     },
     boardContainer: {
@@ -220,21 +223,20 @@ const styles = StyleSheet.create({
         marginTop: 5,
         marginBottom: 40,
         paddingBottom: 10,
-        borderBottomWidth: 2,
+        borderBottomWidth: 4,
         borderColor: "#fff"
     },
     touchOpacity: {
-        backgroundColor: 'transparent',
-        alignSelf: 'stretch',
+        backgroundColor: 'rgba(0, 0, 0, 0.4)',
         paddingTop: 10,
         paddingBottom: 10,
-        paddingLeft: 20,
-        paddingRight: 20,
+        paddingLeft: 30,
+        paddingRight: 30,
     },
     cellContainer: {
         height: 80,
         width:  80,
-        borderColor: "black",
+        borderColor: "orange",
         borderWidth: 2,
         justifyContent: "center",
         alignItems: "center"
@@ -245,13 +247,12 @@ const styles = StyleSheet.create({
         flex: 1
     },
     buttonHolder: {
-        borderColor: "#fff",
-        borderWidth: 3,
         borderRadius: 5,
         alignItems: "center"
     },
     buttonText: {
-        color: "#000"
+        color: "#fff",
+        fontSize: 17
     },
     messageText: {
         fontSize: 22,
