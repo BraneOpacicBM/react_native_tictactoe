@@ -1,7 +1,5 @@
-
-
 import React, { Component } from 'react';
-import { View, Text, TouchableWithoutFeedback, StyleSheet, Dimensions, AsyncStorage } from 'react-native';
+import { View, Text, TouchableOpacity, StyleSheet, Dimensions, AsyncStorage } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 
 class TicTacToe extends Component {
@@ -19,7 +17,7 @@ class TicTacToe extends Component {
                  "", "", "",
                   "", "", ""],
         playerTurn: "X",
-        message: "It's X's turn!",
+        message: "X plays",
         checkForWinner: null,
         playableGame: true
     }
@@ -33,7 +31,7 @@ class TicTacToe extends Component {
                     return {
                         board: boardItems,
                         playerTurn: prevState.playerTurn === "X" ? "O" : "X",
-                        message: prevState.message === "It's X's turn!" ? "It's O's turn!" : "It's X's turn!" 
+                        message: prevState.message === "X plays" ? "O plays" : "X plays" 
                     }
                 },
                 () => {
@@ -63,67 +61,67 @@ class TicTacToe extends Component {
         console.log(board)
         if(board[0] !== "" && board[0] === board[1] && board[0] === board[2]){
             this.setState({
-                message: board[0] + " is the winner!",
+                message: board[0] + " wins!",
                 playableGame: false
             })
             this.playWinningVideo();
-            let winner = board[0] + " is the winner!"
+            let winner = board[0] + " wins!"
             AsyncStorage.setItem("winner", JSON.stringify(winner));
           } else if(board[3] !== "" && board[3] === board[4] && board[3] === board[5]){
             this.setState({
-                message: board[3] + " is the winner!",
+                message: board[3] + " wins!",
                 playableGame: false
             }),
             this.playWinningVideo();
-            let winner = board[3] + " is the winner!"
+            let winner = board[3] + " wins!"
             AsyncStorage.setItem("winner", JSON.stringify(winner));
           } else if(board[6] !== "" && board[6] === board[7] && board[6] === board[8]){
             this.setState({
-                message: board[6] + " is the winner!",
+                message: board[6] + " wins!",
                 playableGame: false
             }),
             this.playWinningVideo();
-            let winner = board[6] + " is the winner!"
+            let winner = board[6] + " wins!"
             AsyncStorage.setItem("winner", JSON.stringify(winner));
           } else if(board[0] !== "" && board[0] === board[3] && board[0] === board[6]){
             this.setState({
-                message: board[0] + " is the winner!",
+                message: board[0] + " wins!",
                 playableGame: false
             }),
             this.playWinningVideo();
-            let winner = board[0] + " is the winner!"
+            let winner = board[0] + " wins!"
             AsyncStorage.setItem("winner", JSON.stringify(winner));
           } else if(board[1] !== "" && board[1] === board[4] && board[1] === board[7]){
             this.setState({
-                message: board[1] + " is the winner!",
+                message: board[1] + " wins!",
                 playableGame: false
             }),
             this.playWinningVideo();
-            let winner = board[1] + " is the winner!"
+            let winner = board[1] + " wins!"
             AsyncStorage.setItem("winner", JSON.stringify(winner));
           } else if(board[2] !== "" && board[2] === board[5] && board[2] === board[8]){
             this.setState({
-                message: board[2] + " is the winner!",
+                message: board[2] + " wins!",
                 playableGame: false
             }),
             this.playWinningVideo();
-            let winner = board[2] + " is the winner!"
+            let winner = board[2] + " wins!"
             AsyncStorage.setItem("winner", JSON.stringify(winner));
           } else if(board[0] !== "" && board[0] === board[4] && board[0] === board[8]){
             this.setState({
-                message: board[0] + " is the winner!",
+                message: board[0] + " wins!",
                 playableGame: false
             }),
             this.playWinningVideo();
-            let winner = board[0] + " is the winner!"
+            let winner = board[0] + " wins!"
             AsyncStorage.setItem("winner", JSON.stringify(winner));
           } else if(board[2] !== "" && board[2] === board[4] && board[2] === board[6]){
             this.setState({
-                message: board[2] + " is the winner!",
+                message: board[2] + " wins!",
                 playableGame: false
             }),
             this.playWinningVideo();
-            let winner = board[2] + " is the winner!"
+            let winner = board[2] + " wins!"
             AsyncStorage.setItem("winner", JSON.stringify(winner));
           } else  {
             if([].concat(board).sort().reverse().pop() !== "") {
@@ -134,16 +132,6 @@ class TicTacToe extends Component {
                 AsyncStorage.setItem("winner", JSON.stringify(winner));
             }
           }
-    }
-
-    buttonReset = () => {
-        this.setState({
-            board: ["", "", "",
-                    "", "", "",
-                    "", "", ""],
-            playerTurn: "X",
-            message: "It's X's turn!"
-        })
     }
 
     dimensionsCallback = (dims) => {
@@ -167,7 +155,7 @@ class TicTacToe extends Component {
                      "", "", "",
                       "", "", ""],
             playerTurn: "X",
-            message: "It's X's turn!",
+            message: "X plays",
             playableGame: true
         })
     }
@@ -176,11 +164,11 @@ class TicTacToe extends Component {
     render(){
 
         let boardCells = [...this.state.board].map((cell, index) => {
-            return <TouchableWithoutFeedback key={index} onPress={(e) => this.selectElement(e, index)}>
+            return <TouchableOpacity key={index} onPress={(e) => this.selectElement(e, index)}>
                 <View style={styles.cellContainer}>
                     {this.state.board[index] !== "" ? (this.state.board[index] === "X" ? <Icon size={40} color="red" name="md-close" /> : <Icon size={40} color="blue" name="md-radio-button-off" />) : null }
                 </View>
-            </TouchableWithoutFeedback>
+            </TouchableOpacity>
         })
 
         return(
@@ -193,11 +181,11 @@ class TicTacToe extends Component {
                         {boardCells}
                     </View>
                     <View style={[styles.buttonHolder, this.state.respStyles.flexDirection === "row" ? { alignSelf: "flex-end", marginBottom: 80} : null]}>
-                        <TouchableWithoutFeedback onPress={this.resetHandler}>
-                            <View>
+                        <TouchableOpacity onPress={this.resetHandler}>
+                            <View style={styles.touchOpacity}>
                             <Text style={styles.buttonText}>Reset</Text>
                             </View>
-                        </TouchableWithoutFeedback>
+                        </TouchableOpacity>
                     </View>
                 </View>
             </View>
@@ -209,7 +197,9 @@ class TicTacToe extends Component {
 const styles = StyleSheet.create({
     wrapper: {
         flex: 1,
-        backgroundColor: "#7acfd6"
+        backgroundColor: "#7acfd6",
+        justifyContent: "center",
+        alignItems: "center"
     },
     gameContainer: {
         justifyContent: "center",
@@ -226,12 +216,19 @@ const styles = StyleSheet.create({
         marginBottom: 60
     },
     messageDisplayWrapper: {
-        marginTop: 20,
+        marginTop: 5,
         marginBottom: 40,
         paddingBottom: 10,
         borderBottomWidth: 2,
         borderColor: "#fff"
-        
+    },
+    touchOpacity: {
+        backgroundColor: 'transparent',
+        alignSelf: 'stretch',
+        paddingTop: 10,
+        paddingBottom: 10,
+        paddingLeft: 20,
+        paddingRight: 20,
     },
     cellContainer: {
         height: 80,
@@ -249,10 +246,6 @@ const styles = StyleSheet.create({
     buttonHolder: {
         borderColor: "#fff",
         borderWidth: 3,
-        paddingTop: 10,
-        paddingBottom: 10,
-        paddingLeft: 20,
-        paddingRight: 20,
         borderRadius: 5,
         alignItems: "center"
     },
@@ -260,7 +253,8 @@ const styles = StyleSheet.create({
         color: "#000"
     },
     messageText: {
-        fontSize: 18
+        fontSize: 22,
+        fontWeight: '800'
     }
 
 })

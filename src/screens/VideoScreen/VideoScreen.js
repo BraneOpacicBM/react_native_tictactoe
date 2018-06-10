@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, StyleSheet } from 'react-native';
 import Video from 'react-native-video';
 import LightVideo from '../../assets/background.mp4';
 import WinnerInfo from '../../components/WinnerInfo/WinnerInfo';

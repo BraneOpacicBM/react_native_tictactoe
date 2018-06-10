@@ -1,6 +1,5 @@
 import React, { Component } from 'react'; 
-import { View, Text, Image, TouchableWithoutFeedback, StyleSheet, Dimensions } from 'react-native';
-import { connect } from 'react-redux';
+import { View, Text, Image, TouchableWithoutFeedback, TouchableOpacity, StyleSheet, Dimensions } from 'react-native';
 import imageGrid from '../../assets/grid2.png';
 
 
@@ -56,11 +55,11 @@ class StartScreen extends Component {
                     <Image source={imageGrid} style={styles.imageGrid} />
                 </View>
                 <View style={styles.buttonHolder}>
-                    <TouchableWithoutFeedback onPress={this.gameStartHandler}>
-                        <View>
+                    <TouchableOpacity onPress={this.gameStartHandler}>
+                        <View style={styles.touchOpacity}>
                          <Text style={styles.buttonText}>Play!</Text>
                         </View>
-                    </TouchableWithoutFeedback>
+                    </TouchableOpacity>
                 </View>
             </View>
         )
@@ -85,32 +84,38 @@ const styles = StyleSheet.create({
         alignItems: "center"
     },
     imageContainer: {
-        borderWidth: 4,
-        borderColor: "white",
-        borderRadius: 4
+        borderWidth: 2,
+        borderColor: "#000",
+        borderRadius: 6
     },
     tictactoeSubHeading: {
-        borderWidth: 1,
+        borderWidth: 3,
         borderColor: "#fff",
         borderRadius: 20,
-        paddingLeft: 10,
-        paddingRight: 10,
-        marginTop: 20,
-        marginBottom: 20
+        paddingLeft: 15,
+        paddingRight: 15,
+        paddingTop: 10,
+        paddingBottom: 10,
+        marginTop: 25,
+        marginBottom: 25
     },
     imageGrid: {
-        height: 200,
-        width: 200
+        height: 230,
+        width: 230
     },
     buttonHolder: {
         borderColor: "#000",
         borderWidth: 3,
-        paddingTop: 10,
-        paddingBottom: 10,
-        paddingLeft: 20,
-        paddingRight: 20,
         borderRadius: 5,
-        alignItems: "center"
+        alignItems: "center",
+    },
+    touchOpacity: {
+        backgroundColor: 'transparent',
+        alignSelf: 'stretch',
+        paddingTop: 15,
+        paddingBottom: 15,
+        paddingLeft: 25,
+        paddingRight: 25,
     },
     buttonText: {
         color: "#000"

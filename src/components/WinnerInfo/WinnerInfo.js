@@ -88,7 +88,8 @@ const styles = StyleSheet.create({
     buttonText: {
         color: "#7acfd6",
         fontSize: 24,
-        paddingLeft: 10
+        paddingLeft: 10,
+        paddingRight: 2
     },
     iconStyle: {
         paddingTop: 4
