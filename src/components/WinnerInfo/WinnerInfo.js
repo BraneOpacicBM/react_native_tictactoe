@@ -26,7 +26,7 @@ class WinnerInfo extends Component {
                     <View style={styles.opacityContainer}>
                         <View style={styles.asyncInfoWrapper}>
                             <Text style={styles.infoWinnerText}>Last Winner:</Text>
-                            <Text style={[styles.infoWinnerText, {fontSize: 24, color: "red"}]}>{this.state.winnerInfo ? (this.state.winnerInfo == '"X is the winner!"' ? "Player X" : "Player O") : null}</Text>
+                            <Text style={[styles.infoWinnerText, {fontSize: 24, color: "red"}]}>{this.state.winnerInfo ? (this.state.winnerInfo == '"X wins!"' ? "Player X" : "Player O") : null}</Text>
                         </View>
                         <TouchableOpacity onPress={this.props.btnPress}>
                             <View style={styles.backButton}>

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { View, Text, TouchableOpacity, StyleSheet, Dimensions, AsyncStorage } from 'react-native';
+import { View, Text, TouchableOpacity, StyleSheet, Dimensions, AsyncStorage, ImageBackground } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
+import imgBackground from '../../assets/bg-img.jpeg';
 
 class TicTacToe extends Component {
 
@@ -172,7 +173,7 @@ class TicTacToe extends Component {
         })
 
         return(
-            <View style={[styles.wrapper, this.state.respStyles.flexDirection === "row" ? { justifyContent: "center", alignItems: "center"} : null]}>
+            <ImageBackground source={imgBackground} style={[styles.wrapper, this.state.respStyles.flexDirection === "row" ? { justifyContent: "center", alignItems: "center"} : null]}>
                 <View style={[styles.gameContainer, {flexDirection: this.state.respStyles.flexDirection, marginTop: 20}]}>
                     <View style={[styles.messageDisplayWrapper, this.state.respStyles.flexDirection === "row" ? { alignSelf: "flex-start", marginTop: 50} : null]}>
                         <Text style={styles.messageText}>{this.state.message}</Text>
@@ -188,7 +189,7 @@ class TicTacToe extends Component {
                         </TouchableOpacity>
                     </View>
                 </View>
-            </View>
+            </ImageBackground>
         )
     }
 }

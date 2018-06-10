@@ -1,6 +1,7 @@
 import React, { Component } from 'react'; 
-import { View, Text, Image, TouchableWithoutFeedback, TouchableOpacity, StyleSheet, Dimensions } from 'react-native';
+import { View, Text, Image, TouchableOpacity, StyleSheet, Dimensions, ImageBackground } from 'react-native';
 import imageGrid from '../../assets/grid2.png';
+import imgBackground from '../../assets/bg-img.jpeg';
 
 
 class StartScreen extends Component {
@@ -40,7 +41,7 @@ class StartScreen extends Component {
 
     
         return(
-            <View style={[styles.container, {flexDirection: this.state.respStyles.flexDirection}]}>
+            <ImageBackground source={imgBackground} style={[styles.container, {flexDirection: this.state.respStyles.flexDirection}]}>
                 <View style={styles.headingContainer}>
                     <Text style={styles.headingText}>WELCOME</Text>
                     <View style={styles.subHeadingContainer}>
@@ -61,7 +62,7 @@ class StartScreen extends Component {
                         </View>
                     </TouchableOpacity>
                 </View>
-            </View>
+            </ImageBackground>
         )
     }
 }
