@@ -4,7 +4,7 @@ Tic-tac-toe React Native application
 
 ## Screenshots
 
-![alt text](scr/assets/grid.png "First screen on mobile")
+![alt text](src/assets/grid.png "First screen on mobile")
 
 
 ## Getting Started
