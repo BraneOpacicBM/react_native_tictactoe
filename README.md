@@ -4,13 +4,13 @@ Tic-tac-toe React Native application
 
 ## Screenshots
 
-First mobile screen
+## First mobile screen
 ![First Screen](src/assets/readmeScreenshots/screen1-resize.jpg "First screen on mobile")
 
-Second mobile screen
+## Second mobile screen
 ![Second Screen](src/assets/readmeScreenshots/screen2-resize.jpg "Second screen on mobile")
 
-Third mobile screen
+## Third mobile screen
 ![Third Screen](src/assets/readmeScreenshots/screen3-resize.jpg "Third screen on mobile")
 
 
