@@ -4,7 +4,14 @@ Tic-tac-toe React Native application
 
 ## Screenshots
 
-![alt text](src/assets/grid.png "First screen on mobile")
+First mobile screen
+![First Screen](src/assets/readmeScreenshots/screen1.jpg "First screen on mobile")
+
+Second mobile screen
+![Second Screen](src/assets/readmeScreenshots/screen2.jpg "Second screen on mobile")
+
+Third mobile screen
+![Third Screen](src/assets/readmeScreenshots/screen3.jpg "Third screen on mobile")
 
 
 ## Getting Started
@@ -19,6 +26,12 @@ Build the app in Android Studio/Xcode
 
 ```
 npm run android
+```
+
+or
+
+```
+npm run ios
 ```
 
 The project should start in the emulator/device you've connected!
