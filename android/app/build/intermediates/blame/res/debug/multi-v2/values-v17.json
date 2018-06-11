@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/josip/Desktop/tictactoe/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml",
+            "outputFile": "C:\\Users\\Brane Opacic\\Desktop\\tictactoe\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
             "map": [
                 {
-                    "source": "/Users/josip/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/7cf430c0b9f8ec0d0fd6e6b39d110dc1/res/values-v17/values-v17.xml",
+                    "source": "C:\\Users\\Brane Opacic\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d79ed2a8832f3fd6be897c47c8b1cc3b\\res\\values-v17\\values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,26,29,32,35,39,42,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
