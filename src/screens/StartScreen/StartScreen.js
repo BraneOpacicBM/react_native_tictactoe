@@ -125,17 +125,6 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center'
     },
-    tictactoeSubHeading: {
-        borderWidth: 3,
-        borderColor: "#fff",
-        borderRadius: 20,
-        paddingLeft: 15,
-        paddingRight: 15,
-        paddingTop: 10,
-        paddingBottom: 10,
-        marginTop: 25,
-        marginBottom: 25
-    },
     imageGrid: {
         height: 230,
         width: 230
@@ -163,14 +152,6 @@ const styles = StyleSheet.create({
     headingText: {
         color: "#fff",
         fontSize: 45,
-        elevation: 2,
-        shadowColor: '#000',
-        shadowOffset: {
-            width: 0,
-            height: 3
-          },
-          shadowRadius: 5,
-          shadowOpacity: 0.6,
         marginBottom: 20,
         fontWeight: "900"
     },
@@ -178,10 +159,6 @@ const styles = StyleSheet.create({
         color: "#000",
         fontSize: 14,
         fontWeight: "900",
-        
-    },
-    tictactoeText: {
-        color: "#fff",
         
     }
 })

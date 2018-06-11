@@ -59,7 +59,7 @@ class TicTacToe extends Component {
     }
 
     checkForWinner = (board) => {
-        console.log(board)
+        
         if(board[0] !== "" && board[0] === board[1] && board[0] === board[2]){
             this.setState({
                 message: board[0] + " wins!",
@@ -240,11 +240,6 @@ const styles = StyleSheet.create({
         borderWidth: 2,
         justifyContent: "center",
         alignItems: "center"
-    },
-    cellInner: {
-        borderColor: "blue",
-        borderWidth: 1,
-        flex: 1
     },
     buttonHolder: {
         borderRadius: 5,

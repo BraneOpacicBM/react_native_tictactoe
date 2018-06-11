@@ -63,7 +63,6 @@ const styles = StyleSheet.create({
         alignItems: "center"
     },
     opacityContainer: {
-        
         padding: 40,
         backgroundColor: "rgba(0, 0, 0, 0.4)",
         borderRadius: 5
