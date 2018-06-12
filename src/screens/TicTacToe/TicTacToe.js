@@ -14,9 +14,7 @@ class TicTacToe extends Component {
         respStyles: {
             flexDirection: "column"
         },
-        board: ["", "", "",
-                 "", "", "",
-                  "", "", ""],
+        board: Array(9).fill(""),
         playerTurn: "X",
         message: "X plays",
         checkForWinner: null,
@@ -59,80 +57,41 @@ class TicTacToe extends Component {
     }
 
     checkForWinner = (board) => {
-        
-        if(board[0] !== "" && board[0] === board[1] && board[0] === board[2]){
-            this.setState({
-                message: board[0] + " wins!",
-                playableGame: false
-            })
-            this.playWinningVideo();
-            let winner = board[0] + " wins!"
-            AsyncStorage.setItem("winner", JSON.stringify(winner));
-          } else if(board[3] !== "" && board[3] === board[4] && board[3] === board[5]){
-            this.setState({
-                message: board[3] + " wins!",
-                playableGame: false
-            }),
-            this.playWinningVideo();
-            let winner = board[3] + " wins!"
-            AsyncStorage.setItem("winner", JSON.stringify(winner));
-          } else if(board[6] !== "" && board[6] === board[7] && board[6] === board[8]){
-            this.setState({
-                message: board[6] + " wins!",
-                playableGame: false
-            }),
-            this.playWinningVideo();
-            let winner = board[6] + " wins!"
-            AsyncStorage.setItem("winner", JSON.stringify(winner));
-          } else if(board[0] !== "" && board[0] === board[3] && board[0] === board[6]){
-            this.setState({
-                message: board[0] + " wins!",
-                playableGame: false
-            }),
-            this.playWinningVideo();
-            let winner = board[0] + " wins!"
-            AsyncStorage.setItem("winner", JSON.stringify(winner));
-          } else if(board[1] !== "" && board[1] === board[4] && board[1] === board[7]){
-            this.setState({
-                message: board[1] + " wins!",
-                playableGame: false
-            }),
-            this.playWinningVideo();
-            let winner = board[1] + " wins!"
-            AsyncStorage.setItem("winner", JSON.stringify(winner));
-          } else if(board[2] !== "" && board[2] === board[5] && board[2] === board[8]){
-            this.setState({
-                message: board[2] + " wins!",
-                playableGame: false
-            }),
-            this.playWinningVideo();
-            let winner = board[2] + " wins!"
-            AsyncStorage.setItem("winner", JSON.stringify(winner));
-          } else if(board[0] !== "" && board[0] === board[4] && board[0] === board[8]){
-            this.setState({
-                message: board[0] + " wins!",
-                playableGame: false
-            }),
-            this.playWinningVideo();
-            let winner = board[0] + " wins!"
-            AsyncStorage.setItem("winner", JSON.stringify(winner));
-          } else if(board[2] !== "" && board[2] === board[4] && board[2] === board[6]){
-            this.setState({
-                message: board[2] + " wins!",
-                playableGame: false
-            }),
-            this.playWinningVideo();
-            let winner = board[2] + " wins!"
-            AsyncStorage.setItem("winner", JSON.stringify(winner));
-          } else  {
-            if([].concat(board).sort().reverse().pop() !== "") {
+
+
+        const lines = [
+            [0, 1, 2],
+            [3, 4, 5],
+            [6, 7, 8],
+            [0, 3, 6],
+            [1, 4, 7],
+            [2, 5, 8],
+            [0, 4, 8],
+            [2, 4, 6]
+          ];
+          for (let i = 0; i < lines.length; i++) {
+            const [a, b, c] = lines[i];
+            if (board[a] && board[a] === board[b] && board[a] === board[c]) {
+              this.setState({
+                message: board[a] + " wins!",
+                playableGame: false,
+              })
+              this.playWinningVideo();
+              let winner = board[0] + " wins!"
+              AsyncStorage.setItem("winner", JSON.stringify(winner));
+            } else  {
+              if([].concat(board).sort().reverse().pop() !== "") {
                 this.setState({
                     message: "It's a draw!"
                 })
                 let winner = "Match was a draw!"
                 AsyncStorage.setItem("winner", JSON.stringify(winner));
+              }
             }
           }
+          return null;
+        
+        
     }
 
     dimensionsCallback = (dims) => {
@@ -152,9 +111,7 @@ class TicTacToe extends Component {
 
     resetHandler = () => {
         this.setState({
-            board: ["", "", "",
-                     "", "", "",
-                      "", "", ""],
+            board: Array(9).fill(""),
             playerTurn: "X",
             message: "X plays",
             playableGame: true
